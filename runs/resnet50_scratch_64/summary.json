@@ -1,0 +1,19 @@
+{
+  "arch": "resnet50_scratch",
+  "pretrained": false,
+  "img_size": [
+    64,
+    64
+  ],
+  "best_epoch": 10,
+  "epochs_run": 12,
+  "train_minutes": 29.3,
+  "temperature": 1.193598985671997,
+  "final_train_acc": 0.9365530303030303,
+  "val_accuracy": 0.624731182795699,
+  "val_log_loss": 1.2284603118896484,
+  "val_macro_f1": 0.6108971605558823,
+  "test_accuracy": 0.665028453181583,
+  "test_log_loss": 1.0696018934249878,
+  "test_macro_f1": 0.667966460356163
+}

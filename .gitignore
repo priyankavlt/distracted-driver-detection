@@ -1,0 +1,12 @@
+.venv/
+data/
+*.pt
+*.log
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.npy
+.ipynb_checkpoints/
+flagged/
+*.egg-info/

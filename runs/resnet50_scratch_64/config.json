@@ -1,0 +1,23 @@
+{
+  "arch": "resnet50_scratch",
+  "pretrained": false,
+  "img_size": [
+    64,
+    64
+  ],
+  "epochs": 15,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.05,
+  "warmup_epochs": 0.5,
+  "label_smoothing": 0.1,
+  "drop_rate": 0.2,
+  "patience": 6,
+  "workers": 6,
+  "seed": 42,
+  "limit": 0,
+  "data_dir": null,
+  "runs_dir": "/Users/priyankavoleti/.t3/projects/distracted-driver-detection/runs",
+  "name": "resnet50_scratch_64",
+  "device": "auto"
+}

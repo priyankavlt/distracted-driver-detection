@@ -1,0 +1,24 @@
+{
+  "arch": "resnet34",
+  "pretrained": true,
+  "img_size": [
+    168,
+    224
+  ],
+  "epochs": 8,
+  "batch_size": 32,
+  "lr": 0.0005,
+  "weight_decay": 0.05,
+  "warmup_epochs": 0.5,
+  "label_smoothing": 0.1,
+  "drop_rate": 0.2,
+  "patience": 4,
+  "workers": 6,
+  "seed": 42,
+  "limit": 0,
+  "data_dir": null,
+  "runs_dir": "/Users/priyankavoleti/.t3/projects/distracted-driver-detection/runs",
+  "name": "resnet34_168x224",
+  "device": "auto",
+  "finalize_only": false
+}

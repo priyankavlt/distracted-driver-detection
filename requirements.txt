@@ -1,0 +1,11 @@
+torch>=2.2
+torchvision>=0.17
+timm>=1.0
+numpy
+pandas
+pillow
+scikit-learn
+matplotlib
+tqdm
+gradio>=4      # optional: demo app
+pytest         # optional: tests

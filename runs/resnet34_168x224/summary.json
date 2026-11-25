@@ -1,0 +1,19 @@
+{
+  "arch": "resnet34",
+  "pretrained": true,
+  "img_size": [
+    168,
+    224
+  ],
+  "best_epoch": 4,
+  "epochs_run": 8,
+  "train_minutes": 101.3,
+  "temperature": 0.8530664443969727,
+  "final_train_acc": 0.9918331533477321,
+  "val_accuracy": 0.8975806451612903,
+  "val_log_loss": 0.40402841567993164,
+  "val_macro_f1": 0.9016662831069515,
+  "test_accuracy": 0.9229177444386963,
+  "test_log_loss": 0.2912498414516449,
+  "test_macro_f1": 0.923819286197954
+}
